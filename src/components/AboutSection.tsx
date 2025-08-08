@@ -4,25 +4,20 @@ import { GraduationCap, Code, Brain, Trophy } from "lucide-react";
 const AboutSection = () => {
   const highlights = [
     {
-      icon: GraduationCap,
+      icon: Graduation,
       title: "Education",
-      description: "Final Year CS Student at Tech University with a 3.8 GPA"
+      description: "Final Year Student at Gurunank institutions with a 9.0 GPA"
     },
     {
       icon: Code,
       title: "Development",
-      description: "3+ years of experience in full-stack development"
+      description: "1 years of experience in full-stack development"
     },
     {
       icon: Brain,
       title: "Specialization",
-      description: "Focus on AI/ML, Data Science, and Cloud Technologies"
+      description: " Data Science, and Cloud Technologies"
     },
-    {
-      icon: Trophy,
-      title: "Achievements",
-      description: "Hackathon winner, Open source contributor"
-    }
   ];
 
   return (
@@ -74,18 +69,18 @@ const AboutSection = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Problem Solving</span>
-                    <span className="text-primary">95%</span>
+                    <span className="text-primary">96%</span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2">
-                    <div className="bg-gradient-primary h-2 rounded-full w-[95%]"></div>
+                    <div className="bg-gradient-primary h-2 rounded-full w-[96%]"></div>
                   </div>
 
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Team Collaboration</span>
-                    <span className="text-primary">90%</span>
+                    <span className="text-primary">95%</span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2">
-                    <div className="bg-gradient-primary h-2 rounded-full w-[90%]"></div>
+                    <div className="bg-gradient-primary h-2 rounded-full w-[95%]"></div>
                   </div>
 
                   <div className="flex justify-between items-center">
